@@ -1,7 +1,7 @@
 // Created by: Dominic M.
 // Created on: April 2023
 //
-// This program checks to see if you a eligible for student pricing.
+// This program checks to see if you are eligible for student pricing.
 package main
 
 import (
@@ -14,7 +14,7 @@ func main() {
 	var age int
 
 	// input
-	fmt.Println("This program checks to see if you a eligible for student pricing.")
+	fmt.Println("This program checks to see if you are eligible for student pricing.")
 	fmt.Println()
 	fmt.Print("Day is it? ")
 	fmt.Println()
