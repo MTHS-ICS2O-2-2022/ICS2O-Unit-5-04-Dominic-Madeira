@@ -29,10 +29,12 @@ func main() {
 		fmt.Println("You are eligible for student pricing.")
 		fmt.Println()
 		fmt.Print("\nDone.")
+		fmt.Println()
 	} else {
 		fmt.Println("You are not eligible for student pricing.")
 		fmt.Println()
 		fmt.Print("\nDone.")
+		fmt.Println()
 
 	}
 }
