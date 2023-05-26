@@ -27,14 +27,10 @@ func main() {
 	// process
 	if day == "tuesday" || day == "thursday" || day == "Tuesday" || day == "Thursday" || age > 12 && age < 21 {
 		fmt.Println("You are eligible for student pricing.")
-		fmt.Println()
-		fmt.Print("\nDone.")
-		fmt.Println()
 	} else {
 		fmt.Println("You are not eligible for student pricing.")
-		fmt.Println()
-		fmt.Print("\nDone.")
-		fmt.Println()
-
 	}
+	fmt.Println()
+	fmt.Print("\nDone.")
+	fmt.Println()
 }
